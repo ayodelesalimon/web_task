@@ -1,0 +1,118 @@
+.header{
+    color: rgb(10, 62, 139);
+    
+}
+body{
+    background-color:#f5f5f7c2;
+
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+  }
+
+  
+  .box {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    background-color: #efefef;
+  }
+  
+  .tweets   { background-color: #A2DED0; }
+  .replies  { background-color: #A2DED0; }
+  .search   { background-color: #A2DED0; }
+  .messages { background-color: #59ABE3; }
+  
+  /* Our Grid Code */
+  .app-layout {
+      border-style: round;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50vh;
+  }
+  
+  /* try to resize the screen */
+  @media screen and (max-width: 1024px) {
+    .app-layout {
+        border-style: groove;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+  }
+nv{
+    line-height:30px;
+    background-color:#271cc4e0;
+    height:300px;
+    width:100px;
+    float:right;
+    padding:5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #271cc4e0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(250, 248, 248);
+}
+.tweets:hover {
+    background-color:#F4D03F;
+}
+.replies:hover {
+    background-color:#F4D03F;
+}
+.search:hover {
+    background-color:#F4D03F;
+}
+.footer{
+    padding: 2px;
+    background-color: blue;
+
+}
+.footer h4{
+    text-align: center;
+    
+
+}
+.footer a {
+    background-color: rgb(250, 248, 248);
+}
+.footer a:hover {
+    background-color: black;
+}
+.p{
+    background-color: white;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+
+th, td {
+    text-decoration-color: #eeeeee;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(44, 39, 39);
+}
+
+tr:hover{background-color:#1e2f8f}
